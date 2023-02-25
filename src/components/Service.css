@@ -1,0 +1,99 @@
+.service {
+    width: 100%;
+    height: 134.5rem;
+    display: flex;
+    overflow: hidden;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to bottom,
+            #ffffff 0%,
+            #ffffff 40%,
+            #41A8F5 40%,
+            #41A8F5 100%);
+}
+
+.service .service-sec {
+    width: 85.1rem;
+    height: 80.1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service .service-sec img {
+    width: 164.0rem;
+    height: 67.1rem;
+    margin-top: 32rem;
+    position: relative;
+    bottom: 16rem;
+}
+
+.service-content {
+    background-color: #41A8F5;
+    height: 49.4rem;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center !important;
+    text-align: center;
+}
+
+.service-content .content {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.service-content h2 {
+    position: relative;
+    top: -2rem;
+    height: 16rem;
+    color: #fff;
+    font-weight: 600;
+    font-size: 6rem;
+    line-height: 8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+    margin: 0 2rem;
+}
+
+.service-content .content {
+    width: 100%;
+    height: 100%;
+    text-align: center;
+}
+
+.service-content p {
+    width: 138.4rem;
+    justify-self: center;
+    height: 15.0rem;
+    color: #fff;
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 3rem;
+    text-align: center;
+}
+
+.service-content .content button {
+    font-weight: 400;
+    font-size: 1.6rem;
+    line-height: 2.4rem;
+    width: 12rem;
+    height: 5.4rem;
+    background-color: #fff;
+    cursor: pointer;
+    color: #41A8F5;
+    border: none;
+}
+
+.service-content .content button:hover {
+    background-color: #41A8F5;
+    border: 0.1rem solid #fff;
+    color: #fff;
+}

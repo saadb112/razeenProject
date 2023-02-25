@@ -1,0 +1,341 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.top-nav {
+    width: 100%;
+    height: 15.4rem;
+    margin: 0rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+}
+
+.top-nav .top-nav-sec {
+    width: 100%;
+    height: 8.5rem;
+    margin: 0 14rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.top-nav .top-nav-sec .top-nav-left-sec {
+    width: auto;
+    height: auto;
+}
+
+.top-nav .top-nav-sec .top-nav-left-sec img {
+    width: 16.6rem;
+    height: 6.3rem;
+}
+
+.top-nav-right-sec {
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-self: flex-end;
+    align-items: center;
+    text-align: left;
+}
+
+.top-nav-details {
+    line-height: .5rem;
+    margin: 0 7.9rem;
+}
+
+.top-nav-details:nth-child(5) {
+    line-height: .5rem;
+    margin-left: 7.9rem;
+    margin-right: 0;
+}
+
+.top-nav-details h2 {
+    margin-top: 1.599rem;
+    font-size: 1.6rem;
+    font-weight: 400;
+    line-height: 2.4rem;
+}
+
+.top-nav-details p {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 2.7rem;
+}
+
+
+
+.top-nav-details img:nth-child(2) {
+    width: 2.5.01rem;
+    height: 1.901rem;
+    margin-bottom: 1.2rem;
+}
+
+.top-nav-details img:nth-child(3) {
+    width: 1.9rem;
+    height: 2.6rem;
+    margin-bottom: 1.2rem;
+}
+
+.navbar {
+    width: 100%;
+    height: 8rem;
+    overflow: hidden !important;
+    background-color: #41A8F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .nav {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 14rem;
+}
+
+
+.navbar .nav .nav-left {
+    width: 100%;
+    height: 100%;
+    display: flex;
+}
+
+.navbar .nav .nav-left ul {
+    list-style-type: none;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav .nav-left ul li {
+    float: left;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar .nav .nav-left ul li:hover a {
+    background-color: #fff;
+    color: #41A8F5 !important;
+    transition: all ease-in .25s;
+}
+
+.navbar .nav .nav-left ul li a {
+    color: #fff;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    font-style: normal;
+    text-align: left;
+    white-space: nowrap;
+    font-weight: 400;
+    line-height: 3rem;
+    font-size: 1.6rem;
+    padding: 0 2.8rem;
+    transition: all ease-in .25s;
+    text-decoration: none;
+}
+
+.navbar .nav .nav-left ul li:nth-child(1) a {
+    background-color: #fff;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #41A8F5;
+    transition: all ease-in .25s;
+}
+
+.navbar .nav .nav-left img {
+    margin-left: .6rem;
+    display: flex;
+    align-self: center;
+}
+
+
+.navbar .nav .nav-right {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    justify-content: flex-end;
+}
+
+.navbar .nav .nav-right .input {
+    width: 76.6rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 5.5rem;
+    margin: 1.2rem 0rem;
+    background: rgba(255, 255, 255, 0.3);
+    border: 0.1rem solid #FFFFFF;
+    border-radius: 4.5rem;
+    padding: .7rem .8rem;
+}
+
+.navbar .nav .nav-right .input .searchbtn {
+    width: 4rem;
+    height: 4rem;
+    background-color: #fff;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    border-radius: 5rem;
+    cursor: pointer;
+}
+
+.navbar .nav .nav-right .input img {
+    box-sizing: border-box;
+    height: 2rem;
+    width: 2rem;
+
+}
+
+.navbar .nav .nav-right .input input {
+    width: 60%;
+    font-size: 1.6rem;
+    padding: 1rem;
+    color: #fff !important;
+    font-weight: 400;
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+.navbar .nav .nav-right .input input::placeholder {
+    color: #fff;
+}
+
+.navbar .nav .nav-right .input+input[type=text]:focus {
+    border: none;
+    background: #41A8F5;
+}
+
+
+/* NAV BOTTOM */
+.nav-bottom {
+    width: 100% !important;
+    background-color: #fff;
+    height: 17.3rem;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav-bottom .nav-bottom-sec {
+    margin: 0 14rem;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 4px 50px rgba(0, 0, 0, 0.08);
+}
+
+.nav-bottom-center {
+    width: auto;
+    height: 100%;
+    background-color: #41A8F5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0.1rem solid #fff;
+    padding: 0 3.5rem;
+}
+
+.nav-bottom-center button {
+    width: 14.1rem;
+    height: 5.4rem;
+    margin: 1rem;
+    color: #41A8F5;
+    background-color: #fff;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.6rem;
+    transition: all ease-in-out .25s;
+    cursor: pointer;
+}
+
+.nav-bottom-center button img {
+    margin: 0 .5rem;
+    width: 1.6rem;
+    height: 1.5rem;
+
+}
+
+.nav-bottom-center button:hover img {
+    filter: brightness(0) invert(1);
+
+}
+
+.nav-bottom-center button:hover {
+    background-color: #41A8F5;
+    color: #fff;
+    border: 0.1rem solid #fff;
+    transition: all ease-in-out .25s;
+}
+
+.nav-bottom-left {
+    width: 100%;
+    height: auto;
+    padding: 2.1rem 4rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-bottom-left h2 {
+    font-weight: 600;
+    font-size: 3.6rem;
+    line-height: 8rem;
+}
+
+.nav-bottom-left h3 {
+    font-size: 3.6rem;
+    line-height: 3rem;
+    color: #41A8F5;
+    font-weight: 500;
+}
+
+.nav-bottom-right {
+    width: 100%;
+    height: auto;
+    padding: 2.1rem 4rem;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.nav-bottom-right h2 {
+    font-weight: 600;
+    line-height: 8rem;
+    font-size: 3.6rem;
+}
+
+.nav-bottom-right h3 {
+    font-size: 3.6rem;
+    line-height: 0;
+    line-height: 3rem;
+    color: #41A8F5;
+    font-weight: 500;
+}
